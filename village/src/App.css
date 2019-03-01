@@ -1,3 +1,48 @@
+*{
+  padding:0;
+}
 .App {
   text-align: center;
+}
+.navBar{
+  background-color: rgb(255, 211, 154);
+  height:4rem;
+  display:flex;
+  align-content: center;
+}
+.nav{
+  width:15rem;
+  display: flex;
+  margin: 1rem auto;
+  justify-content: space-between;
+}
+.link{
+  color:black;
+  text-decoration: none;
+  font-size:1.2rem;
+}
+.activeLink{
+  color:white;
+  text-shadow: .1rem .1rem .3rem black;
+  font-size:1.2rem;
+}
+.SmurfForm{
+
+}
+.SmurfForm form{
+  display: flex;
+  flex-direction: column;
+  margin:1rem auto;
+  width:20rem;
+}
+.SmurfForm input{
+  margin-bottom: 1rem;
+  height:2rem;
+  font-size: 1rem;
+}
+.SmurfForm button{
+  width:10rem;
+  margin:auto;
+  height:2rem;
+  border-radius: 8px;
 }

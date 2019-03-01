@@ -3,9 +3,9 @@ import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
   return (
-    <div>
-      <NavLink to="/smurf-form" activeClassName="formLink">Add Smurf</NavLink>
-      <NavLink to="/" activeClassName="formLink">Smurfs</NavLink>
+    <div className='nav'>
+      <NavLink to="/smurf-form" className='link' activeClassName="activeLink">Add Smurf</NavLink>
+      <NavLink exact to="/" className='link' activeClassName="activeLink">Village</NavLink>
     </div>
   )
 }
