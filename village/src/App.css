@@ -40,9 +40,34 @@
   height:2rem;
   font-size: 1rem;
 }
+input:focus {
+  outline:0;
+}
 .SmurfForm button{
   width:10rem;
   margin:auto;
   height:2rem;
-  border-radius: 8px;
+  border-radius: 1rem;
+  font-size: .8rem;
+  box-shadow: 0rem .2rem 0rem black;
+  border:.05rem solid black;
+}
+.SmurfForm button:hover{
+  cursor: pointer;
+}
+.SmurfForm button:active{
+  box-shadow: 0rem 0rem 0rem black;
+  margin-top:.1rem;
+}
+button:focus {outline:0;}
+
+.smurfContainer{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.smurf{
+  width:17rem;
+  margin:1rem;
+  box-shadow:0rem .1rem 1.5rem rgb(255, 191, 108);
 }
